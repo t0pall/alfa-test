@@ -1,0 +1,14 @@
+* {
+  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --main-color: #5e69ee;
+  --secondary-color: #f4f4fb;
+  --accent-color: #39afea;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-family);
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+}

@@ -1,0 +1,14 @@
+.errorPage {
+  display: flex;
+  height: calc(100vh - 43px);
+  padding: 50px 30px;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  font-size: 32px;
+  color: var(--accent-color);
+}
