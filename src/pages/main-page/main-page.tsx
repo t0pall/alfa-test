@@ -20,7 +20,7 @@ export const MainPage = () => {
   }, [])
 
   const filteredPosts = isFilter
-    ? allPosts?.filter(post => post.reactions.length > 0)
+    ? allPosts?.filter(post => post.reactions.includes(userId))
     : allPosts
 
   if (isLoading) {
