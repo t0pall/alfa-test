@@ -14,4 +14,4 @@ export const router = createBrowserRouter([
     element: <PostDetailsPage />,
     errorElement: <ErrorPage />,
   },
-])
+], {basename: "/alfa-test"})
