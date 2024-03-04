@@ -7,5 +7,5 @@ export default defineConfig({
   server: {
     open: true,
   },
-  base: '/alfa-test/'
+  base: '/alfa-test'
 })

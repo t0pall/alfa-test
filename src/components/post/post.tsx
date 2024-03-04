@@ -51,9 +51,12 @@ const Post: FC<PostProps> = ({
             deleteCard(id)
             e.stopPropagation()
           }}
+          style={{
+            backgroundSize: isDeleteLoading ? 0 : "transparent",
+          }}
           className={styles.deleteButton}
         >
-          {isDeleteLoading ? <Spinner size={15} /> : "Удалить"}
+          {isDeleteLoading && <Spinner size={15} />}
         </button>
 
         <button

@@ -74,11 +74,17 @@
 .deleteButton {
   cursor: pointer;
   display: flex;
+  background-image: url("../../icons/delete.svg");
+  padding: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
   justify-content: center;
   align-items: center;
   border: none;
+  width: 25px;
   height: 25px;
-  width: 63px;
   background-color: var(--secondary-color);
   color: var(--main-color);
 }
